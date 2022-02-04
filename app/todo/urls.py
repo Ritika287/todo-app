@@ -5,7 +5,7 @@ from todo import views
 
 
 router = DefaultRouter()
-router.register('todo', views.TagViewSet)
+router.register('todo', views.TodoViewSet)
 
 app_name = 'todo'
 
